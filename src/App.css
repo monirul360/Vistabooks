@@ -13,7 +13,7 @@ a {
 
 /* login-section */
 .login-section .content {
-  padding: 60px;
+  padding: 50px;
   background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
   border-radius: 5px;
 }
@@ -92,4 +92,16 @@ a {
   font-size: 17px;
   color: #FFFFFF;
   padding-left: 5px;
+}
+
+/* responsive */
+@media (max-width:669px) {
+
+  /* login-section */
+  .login-section .content {
+    padding: 20px;
+    background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+    border-radius: 5px;
+  }
+
 }

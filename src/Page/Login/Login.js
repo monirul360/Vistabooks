@@ -10,11 +10,11 @@ const Login = () => {
                         <div className="col-md-12 col-lg-6">
                             <div className='content'>
                                 <h2>Login Account</h2>
-                                <p>
+                                <p className='mb-4'>
                                     Use your Mobile Number to Login in Mobile
                                     Mandi. Happy Selling!
                                 </p>
-                                <div className="form">
+                                <div className="form mt-4">
                                     <form>
                                         <input type="text" name="" id="" placeholder='User name' />
                                         <input type="password" name="" id="" placeholder='Password' />
