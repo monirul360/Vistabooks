@@ -7,6 +7,21 @@
   font-family: 'Poppins', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -92,6 +107,295 @@ a {
   font-size: 17px;
   color: #FFFFFF;
   padding-left: 5px;
+}
+
+/* subscription-page */
+.subscription-page {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscription-page .package {
+  width: 100%;
+}
+
+.subscription-page .package .package-items {
+  width: 300px;
+  padding: 13px 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  border: 1px solid #E45B40;
+  border-radius: 100px;
+}
+
+.subscription-page .package .package-items #monthly {
+  padding: 6px 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  border-radius: 100px;
+  border: none;
+}
+
+.subscription-page .package .package-items #yearly {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.subscription-page>div {
+  width: calc(33% - 20px);
+  margin: 10px;
+}
+
+.subscription-page ul {
+  margin-bottom: 34px;
+}
+
+.subscription-page ul li {
+  list-style: none;
+  text-align: left;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 16px 0;
+  color: #7388A7;
+}
+
+.subscription-page ul li img {
+  margin-right: 15px;
+}
+
+.subscription-page .single-user {
+  padding: 0px 30px;
+  background: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+}
+
+.subscription-page .single-user span {
+  color: linear-gradient(180deg, #E95F3A 0%, #AF307B 100%);
+  border-radius: 100px;
+}
+
+.subscription-page .single-user button {
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  margin-bottom: 39px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 19px 48px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscription-page .single-user sub {
+  color: #ED6235;
+}
+
+.subscription-page .single-user h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#subscribe {
+  width: 190px;
+  height: 47px;
+  display: flex;
+  margin: 12px auto;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  border-radius: 5px;
+}
+
+#view {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 34px;
+}
+
+.subscription-page .team-pro {
+  text-align: center;
+}
+
+.subscription-page .team-pro-info {
+  padding: 0px 30px;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  border-radius: 5px;
+}
+
+.subscription-page .team-pro-info button {
+  padding: 19px 50px;
+  background: #FFFFFF;
+  color: #B9386F;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  border-radius: 0px 0px 16px 16px;
+  border: none;
+}
+
+.subscription-page .team-pro-info h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 50px;
+  color: #FFFFFF;
+}
+
+.subscription-page .team-pro-info ul li {
+  color: #D9D9D9;
+}
+
+#team-pro-Subscribe {
+  width: 190px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+#team-pro-view {
+  display: block;
+  padding-bottom: 34px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.subscription-page .enterprice {
+  padding: 0px 30px;
+  text-align: center;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+}
+
+.subscription-page .enterprice button {
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  margin-bottom: 39px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 19px 48px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscription-page .enterprice h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  background: #0E1A36;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+footer .footer-vista {
+  padding: 100px 20px;
+  margin-left: 0;
+  background-image: url('./Image/Rectangle 67.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .footer-vista p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #514F6E;
+}
+
+footer>div {
+  margin: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  font-style: normal;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  margin-top: 15px;
+  color: #FFFFFF;
 }
 
 /* responsive */
