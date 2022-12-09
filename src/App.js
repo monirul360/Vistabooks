@@ -3,6 +3,7 @@ import './App.css';
 import BenefitsofVistabooksCRMSoftware from './Page/BenefitsofVistabooksCRMSoftware/BenefitsofVistabooksCRMSoftware';
 import HRM from './Page/HRM/HRM';
 import Login from './Page/Login/Login';
+import NewsDetails from './Page/NewsDetails/NewsDetails';
 import OurNews from './Page/OurNews/OurNews';
 import Registration from './Page/Registration/Registration';
 import SchoolERPFunctionalities from './Page/SchoolERPFunctionalities/SchoolERPFunctionalities';
@@ -16,7 +17,7 @@ import VistabooksERPUseCases from './Page/VistabooksERPUseCases/VistabooksERPUse
 import VistabooksHRMSoftwareBenefits from './Page/VistabooksHRMSoftwareBenefits/VistabooksHRMSoftwareBenefits';
 import VistabooksHRMUseCases from './Page/VistabooksHRMUseCases/VistabooksHRMUseCases';
 import VistabooksSchoolERPBenefits from './Page/VistabooksSchoolERPBenefits/VistabooksSchoolERPBenefits';
-
+import ContactUs from './Page/ContactUs/ContactUs';
 function App() {
   return (
     <>
@@ -72,6 +73,14 @@ function App() {
         <Route
           path='/OurNews'
           element={<OurNews></OurNews>}
+        ></Route>
+        <Route
+          path='/NewsDetails'
+          element={<NewsDetails></NewsDetails>}
+        ></Route>
+        <Route
+          path='/ContactUs'
+          element={<ContactUs></ContactUs>}
         ></Route>
       </Routes>
       <Footer></Footer>
