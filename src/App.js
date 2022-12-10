@@ -18,6 +18,8 @@ import VistabooksHRMSoftwareBenefits from './Page/VistabooksHRMSoftwareBenefits/
 import VistabooksHRMUseCases from './Page/VistabooksHRMUseCases/VistabooksHRMUseCases';
 import VistabooksSchoolERPBenefits from './Page/VistabooksSchoolERPBenefits/VistabooksSchoolERPBenefits';
 import ContactUs from './Page/ContactUs/ContactUs';
+import Payment from './Page/Payment/Payment';
+import PaymentPage2 from './Page/PaymentPage2/PaymentPage2';
 function App() {
   return (
     <>
@@ -81,6 +83,14 @@ function App() {
         <Route
           path='/ContactUs'
           element={<ContactUs></ContactUs>}
+        ></Route>
+        <Route
+          path='/Payment'
+          element={<Payment></Payment>}
+        ></Route>
+        <Route
+          path='/PaymentPage2'
+          element={<PaymentPage2></PaymentPage2>}
         ></Route>
       </Routes>
       <Footer></Footer>
