@@ -20,6 +20,7 @@ import VistabooksSchoolERPBenefits from './Page/VistabooksSchoolERPBenefits/Vist
 import ContactUs from './Page/ContactUs/ContactUs';
 import Payment from './Page/Payment/Payment';
 import PaymentPage2 from './Page/PaymentPage2/PaymentPage2';
+import PaymentPage3 from './Page/PaymentPage3/PaymentPage3';
 function App() {
   return (
     <>
@@ -91,6 +92,10 @@ function App() {
         <Route
           path='/PaymentPage2'
           element={<PaymentPage2></PaymentPage2>}
+        ></Route>
+        <Route
+          path='/PaymentPage3'
+          element={<PaymentPage3></PaymentPage3>}
         ></Route>
       </Routes>
       <Footer></Footer>

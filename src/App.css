@@ -869,6 +869,63 @@ payment-page-two
   border-radius: 34px;
 }
 
+/* ==========================
+payment-three
+============================== */
+.payment-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 5px;
+}
+
+.payment-three h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #130E35;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.payment-three p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.payment-three a {
+  width: 470px;
+  padding: 19px 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #130E35;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #E95F3A;
+  margin-top: 30px;
+}
+
 /* ===========================
 footer 
 =============================*/
@@ -946,4 +1003,22 @@ footer ul li a {
     width: 100%;
     margin: 20px 10px;
   }
+
+  .payment-three h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #130E35;
+    margin-top: 10px;
+    margin-bottom: 23px;
+  }
+
+  .payment-three a {
+    width: 100%;
+    display: block;
+  }
+
 }
