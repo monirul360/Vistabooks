@@ -21,11 +21,15 @@ import ContactUs from './Page/ContactUs/ContactUs';
 import Payment from './Page/Payment/Payment';
 import PaymentPage2 from './Page/PaymentPage2/PaymentPage2';
 import PaymentPage3 from './Page/PaymentPage3/PaymentPage3';
+import Nav from './Page/Share/Nav/Nav';
+import Home from './Page/Home/Home';
 function App() {
   return (
     <>
+      <Nav></Nav>
       <Routes>
-        <Route path='/' element={<Login></Login>}></Route>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/registration' element={<Registration></Registration>}></Route>
         <Route path='/subscriptionpage'
           element={<SubscriptionPage></SubscriptionPage>}>
