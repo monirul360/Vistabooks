@@ -6,8 +6,19 @@ import about4 from './../../Image/images/about4.png';
 import checkbox from './../../Image/icons/Vector.png';
 import about_vistabooks from './../../Image/images/1.png';
 import best_features from './../../Image/images/best-features.png';
-import about_how from './../../Image/images/about_how.png'
+import about_how from './../../Image/images/about_how.png';
+import vistabooks_erp from './../../Image/images/vistabooks_erp.png';
+import { useState } from 'react';
 const AboutUsPage = () => {
+    const [aboutclick1, setaboutclick1] = useState(false);
+    const [aboutclick2, setaboutclick2] = useState(false);
+    const [aboutclick3, setaboutclick3] = useState(false);
+    const [aboutclick4, setaboutclick4] = useState(false);
+    const [aboutclick5, setaboutclick5] = useState(false);
+    const [aboutclick6, setaboutclick6] = useState(false);
+    const [aboutclick7, setaboutclick7] = useState(false);
+    const [aboutclick8, setaboutclick8] = useState(false);
+    const [aboutclick9, setaboutclick9] = useState(false);
     return (
         <>
             <section className='about-us'>
@@ -319,6 +330,314 @@ const AboutUsPage = () => {
                                     <img className='img-fluid' src={about_how} alt="" />
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="vistabooks-erp-software py-5">
+                    <div className="container">
+                        <div className="row justify-content-center align-items-center">
+                            <div className="col-md-4">
+                                <img className='img-fluid' src={vistabooks_erp} alt="" />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="text">
+                                    <h2>VISTABOOKS ERP software</h2>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Using important company data, comprehend your clients and customers.</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Utilize a single system to manage sales orders, quotations, invoicing, and payments.</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Make your reporting personalised for all business activities.</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Easy to determine inventory quota and fulfilment</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Create an all-encompassing solution with integrations to boost the
+                                                productivity of your company.</p>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex py-2'>
+                                        <div>
+                                            <img className='pe-2' src={checkbox} alt="" />
+                                        </div>
+                                        <div>
+                                            <p>Boost teamwork across the board, from sales and revenue to operations and
+                                                customer service.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="about-testimonials py-5">
+                    <div className="container">
+                        <div className="row">
+                            {/* item1 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick1(!aboutclick1)}
+                                            >
+                                                {
+                                                    aboutclick1 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick1 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*1 item end */}
+                            {/* item2 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick2(!aboutclick2)}
+                                            >
+                                                {
+                                                    aboutclick2 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick2 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*2 item end */}
+                            {/* item3 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick3(!aboutclick3)}
+                                            >
+                                                {
+                                                    aboutclick3 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick3 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*3 item end */}
+                            {/* item4 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick4(!aboutclick4)}
+                                            >
+                                                {
+                                                    aboutclick4 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick4 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*4 item end */}
+                            {/* item5 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick5(!aboutclick5)}
+                                            >
+                                                {
+                                                    aboutclick5 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick5 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*5 item end */}
+                            {/* item 6*/}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick6(!aboutclick6)}
+                                            >
+                                                {
+                                                    aboutclick6 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick6 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*6 item end */}
+                            {/* item7 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick7(!aboutclick7)}
+                                            >
+                                                {
+                                                    aboutclick7 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick7 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*7 item end */}
+                            {/* item8 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick8(!aboutclick8)}
+                                            >
+                                                {
+                                                    aboutclick8 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick8 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*8 item end */}
+                            {/* item9 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => setaboutclick9(!aboutclick9)}
+                                            >
+                                                {
+                                                    aboutclick9 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${aboutclick9 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*9 item end */}
                         </div>
                     </div>
                 </div>

@@ -571,6 +571,50 @@ about-us
   color: #000000;
 }
 
+.about-testimonials .item {
+  margin: 10px auto;
+  background: #FFFFFF;
+  padding: 19px 18px;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+}
+
+.about-testimonials .item h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212121;
+}
+
+.about-testimonials .item p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #514F6E;
+}
+
+.about-testimonials .item button {
+  border: none;
+  background-color: #ffff;
+}
+
+.about-testimonials .item button p {
+  font-size: 30px;
+  color: #C64564;
+}
+
+.about-testimonials .item .content {
+  margin-top: 13px;
+}
+
+.about-hide {
+  display: none;
+}
+
+
 /* login-section */
 .login-section .content {
   padding: 50px;
