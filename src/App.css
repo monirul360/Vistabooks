@@ -403,6 +403,174 @@ manage-your-customers
   color: #7388A7;
 }
 
+/* ====================
+home-contact
+====================== */
+.home-contact .form {
+  max-width: 672px;
+  padding: 50px;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+}
+
+.home-contact .form input {
+  width: 100%;
+  height: 59.02px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  margin: 13px auto;
+  background: #FFFFFF;
+  border: 1px solid rgba(115, 136, 167, 0.15);
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+  outline: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.home-contact .form textarea {
+  width: 100%;
+  height: 104px;
+  display: block;
+  padding-top: 23px;
+  padding-left: 19px;
+  left: 725px;
+  top: 9717.02px;
+  background: #FFFFFF;
+  border: 1px solid rgba(115, 136, 167, 0.15);
+  box-shadow: 0px 26.7864px 117.19px rgba(32, 36, 138, 0.06);
+  border-radius: 34.4493px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #000000;
+  resize: none;
+}
+
+.home-contact .form input[type=submit] {
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+  border-radius: 500px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* ================
+about-us
+====================== */
+.about-fast-content p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: justify;
+
+  color: #474849;
+}
+
+.about-count h1 {
+  margin-bottom: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 62px;
+  color: #170F49;
+}
+
+.about-count span {
+  color: #DA534B;
+}
+
+.about-count p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #514F6E;
+}
+
+.about-why-choose span {
+  display: block;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3971FF;
+}
+
+.about-why-choose h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 62px;
+  color: #212121;
+}
+
+.about-why-choose .text p {
+  margin: 13px auto;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #474849;
+}
+
+.about-vistabooks h2 {
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.best-features h2 {
+  margin-bottom: 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.about-How-does h2 {
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
 /* login-section */
 .login-section .content {
   padding: 50px;

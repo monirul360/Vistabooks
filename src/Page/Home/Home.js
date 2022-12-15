@@ -433,8 +433,42 @@ const Home = () => {
                         <p>FAQ</p>
                         <h2>Frequently Asked Questions </h2>
                         <div className="row">
-                            <div className="col-md-6"></div>
+                            <div className="col-md-6">
+                                <div class="p-3 m-2 border rounded-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6>What is your refund and cancellation policy?</h6>
+                                        </div>
+                                        <div>
+                                            <a class="btn" data-bs-toggle="collapse" href="#refund" role="button"
+                                                aria-expanded="false" aria-controls="collapseExample">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <small class="collapse text-muted" id="refund">
+                                        Refund/cancellation policies applicable in the following conditions: a) In case,
+                                        the buyer cancels the order online before the product has been shipped, the
+                                        entire order amount will be refunded. ... Total order amount after deduction of
+                                        shipment and handling charges will be refunded.
+
+                                    </small>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="home-contact">
+                    <div className="form">
+                        <form action="">
+                            <input type="text" name="" placeholder='Name' id="" />
+                            <input type="email" name="" placeholder='E-mail' id="" />
+                            <input type="text" name="" placeholder='Subject' id="" />
+                            <textarea name="" placeholder='Product Discription'></textarea>
+                            <input type="submit" value="Send Message" />
+                        </form>
                     </div>
                 </div>
             </section>
