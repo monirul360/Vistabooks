@@ -5,14 +5,16 @@ const Footer = () => {
     return (
         <>
             <footer>
+                {/* <div className='fo-content'></div>
+                <div className='footer-bg'>
+
+                </div> */}
                 <div className='footer-vista'>
                     <img className='img-fluid mb-4' src={vista} alt="" />
                     <p>Farmers and agents can list agricultural</p>
                     <p>items on the Mobile Mandi Technology</p>
                     <p>platform, along with prices and contact</p>
                     <p>information. This listing will make it</p>
-                    <br />
-                    <br /><br /><br />
                 </div>
                 <div>
                     <h4>Product</h4>

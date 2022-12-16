@@ -24,10 +24,10 @@ import PaymentPage3 from './Page/PaymentPage3/PaymentPage3';
 import Nav from './Page/Share/Nav/Nav';
 import Home from './Page/Home/Home';
 import AboutUsPage from './Page/AboutUsPage/AboutUsPage';
+import Head from './Page/Head/Head';
 function App() {
   return (
     <>
-      <Nav></Nav>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
@@ -105,6 +105,10 @@ function App() {
         <Route
           path='/AboutUsPage'
           element={<AboutUsPage></AboutUsPage>}
+        ></Route>
+        <Route
+          path='/head'
+          element={<Head></Head>}
         ></Route>
       </Routes>
       <Footer></Footer>

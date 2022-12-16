@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import hero from './../../Image/images/hero.png';
 import heroicon from './../../Image/icons/3.png';
@@ -8,6 +8,7 @@ import platform_checkbox from './../../Image/icons/checkbox-1.svg';
 import checkbox from './../../Image/icons/checkbox-1.svg';
 import whtecheckbox from './../../Image/icons/checkbox-2.svg';
 const Home = () => {
+    const [homeclick1, sethomeclick1] = useState(false)
     return (
         <>
             <section className='hero-section'>
@@ -433,34 +434,42 @@ const Home = () => {
                         <p>FAQ</p>
                         <h2>Frequently Asked Questions </h2>
                         <div className="row">
+                            {/* item1 */}
                             <div className="col-md-6">
-                                <div class="p-3 m-2 border rounded-3">
-                                    <div class="d-flex justify-content-between align-items-center">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
                                         <div>
-                                            <h6>What is your refund and cancellation policy?</h6>
+                                            <h4>What is Bikat</h4>
                                         </div>
                                         <div>
-                                            <a class="btn" data-bs-toggle="collapse" href="#refund" role="button"
-                                                aria-expanded="false" aria-controls="collapseExample">
-                                                <i class="fas fa-chevron-down"></i>
-                                            </a>
+                                            <button
+                                                onClick={() => sethomeclick1(!homeclick1)}
+                                            >
+                                                {
+                                                    homeclick1 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
                                         </div>
                                     </div>
-                                    <small class="collapse text-muted" id="refund">
-                                        Refund/cancellation policies applicable in the following conditions: a) In case,
-                                        the buyer cancels the order online before the product has been shipped, the
-                                        entire order amount will be refunded. ... Total order amount after deduction of
-                                        shipment and handling charges will be refunded.
-
-                                    </small>
+                                    <div className={`content ${homeclick1 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
                                 </div>
+                                {/*1 item end */}
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section>
-                <div className="home-contact">
+                <div className="home-contact py-5">
+                    <div className='text-center'>
+                        <span>Features</span>
+                        <h2>Contact Us</h2>
+                    </div>
                     <div className="form">
                         <form action="">
                             <input type="text" name="" placeholder='Name' id="" />
