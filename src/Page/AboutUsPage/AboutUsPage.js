@@ -403,6 +403,10 @@ const AboutUsPage = () => {
 
                 <div className="about-testimonials py-5">
                     <div className="container">
+                        <div className="text-center tittle">
+                            <p>FAQ</p>
+                            <h3>Frequently Asked Questions </h3>
+                        </div>
                         <div className="row">
                             {/* item1 */}
                             <div className="col-md-6">

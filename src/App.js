@@ -21,7 +21,6 @@ import ContactUs from './Page/ContactUs/ContactUs';
 import Payment from './Page/Payment/Payment';
 import PaymentPage2 from './Page/PaymentPage2/PaymentPage2';
 import PaymentPage3 from './Page/PaymentPage3/PaymentPage3';
-import Nav from './Page/Share/Nav/Nav';
 import Home from './Page/Home/Home';
 import AboutUsPage from './Page/AboutUsPage/AboutUsPage';
 import Head from './Page/Head/Head';

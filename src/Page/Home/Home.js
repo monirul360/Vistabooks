@@ -4,16 +4,37 @@ import hero from './../../Image/images/hero.png';
 import heroicon from './../../Image/icons/3.png';
 import crm from './../../Image/icons/CRM icon.svg';
 import platform from './../../Image/images/Features.png';
-import platform_checkbox from './../../Image/icons/checkbox-1.svg';
 import checkbox from './../../Image/icons/checkbox-1.svg';
+import bluecheckbox from './../../Image/icons/bluecheckbox.svg';
 import whtecheckbox from './../../Image/icons/checkbox-2.svg';
+import play from './../../Image/icons/play.png';
+import Head from '../Head/Head';
+import group from './../../Image/icons/home/Group1000002501.svg';
+import ERP from './../../Image/icons/home/ERP.svg';
+import HRM from './../../Image/icons/CRM icon.svg';
+import Improved from './../../Image/icons/home/Improved.svg';
+import setup from './../../Image/icons/home/setup.svg';
+import Increased from './../../Image/icons/home/Increased.svg';
+import Solutions from './../../Image/icons/home/Solutions.svg';
+import Advanced_HRMS from './../../Image/icons/home/HRM.svg';
+import Payroll from './../../Image/icons/home/Money.svg';
 const Home = () => {
-    const [homeclick1, sethomeclick1] = useState(false)
+    const [homeclick1, sethomeclick1] = useState(false);
+    const [homeclick2, sethomeclick2] = useState(false);
+    const [homeclick3, sethomeclick3] = useState(false);
+    const [homeclick4, sethomeclick4] = useState(false);
+    const [homeclick5, sethomeclick5] = useState(false);
+    const [homeclick6, sethomeclick6] = useState(false);
+    const [homeclick7, sethomeclick7] = useState(false);
+    const [homeclick8, sethomeclick8] = useState(false);
     return (
-        <>
-            <section className='hero-section'>
+        <div className='home-body'>
+            <div className="head-section">
+                <Head></Head>
+            </div>
+            <section className='hero-section my-5'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center align-items-center">
                         <div className="col-md-7">
                             <div className="hero-text">
                                 <p className='tittle'>Best CRM, ERP & HRM</p>
@@ -46,7 +67,7 @@ const Home = () => {
                     <div className="items">
                         <div>
                             <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
+                            <img src={group} alt="" />
                             <h3>CRM Software</h3>
                             <p>Track and Manage your Customer’s
                                 data with our CRM Software. Manage
@@ -58,29 +79,30 @@ const Home = () => {
                     {/* items -2 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead text-end'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead text-end'>Feature 02</p>
+                            <img src={ERP} alt="" />
+                            <h3>ERP Software</h3>
+                            <p>With our ERP Solutions, You can automate
+                                your daily business activities from
+                                accounting, invoicing the customers,
+                                project management and supply
+                                chain management.</p>
                         </div>
                     </div>
                     {/* items -2 end*/}
-                    {/* items -1 start*/}
+                    {/* items -3 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>Feature 03</p>
+                            <img src={HRM} alt="" />
+                            <h3>HRM Software</h3>
+                            <p>Our HRM Software provides you with
+                                the tool to manage the payroll,
+                                recruitments, employee engagement
+                                program, staff attendance and more.</p>
                         </div>
                     </div>
-                    {/* items -1 end*/}
+                    {/* items -3 end*/}
                 </div>
             </section>
             <section className='automation-platform'>
@@ -95,18 +117,18 @@ const Home = () => {
                                     Software and more. </p>
                                 <div className="d-flex py-4">
                                     <div className='me-5'>
-                                        <p><img className='me-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='me-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                     <div>
-                                        <p><img className='me-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='me-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                 </div>
                                 <div className="d-flex">
                                     <div className='me-5'>
-                                        <p><img className='me-2' src={platform_checkbox} alt="" />HRM Solutions </p>
+                                        <p><img className='me-2' src={bluecheckbox} alt="" />HRM Solutions </p>
                                     </div>
                                     <div>
-                                        <p><img className='me-2' src={platform_checkbox} alt="" />School ERP Solutions </p>
+                                        <p><img className='me-2' src={bluecheckbox} alt="" />School ERP Solutions </p>
                                     </div>
                                 </div>
                                 <Link className='Categories' to='/'>All Categories</Link>
@@ -167,18 +189,18 @@ const Home = () => {
                                     Analytics Data.</p>
                                 <div className="d-flex py-4">
                                     <div className='pe-5'>
-                                        <p><img className='pe-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='pe-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                     <div>
-                                        <p><img className='pe-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='pe-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                 </div>
                                 <div className="d-flex">
                                     <div className='pe-5'>
-                                        <p><img className='pe-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='pe-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                     <div>
-                                        <p><img className='pe-2' src={platform_checkbox} alt="" />CRM Solutions</p>
+                                        <p><img className='pe-2' src={bluecheckbox} alt="" />CRM Solutions</p>
                                     </div>
                                 </div>
                                 <br />
@@ -194,12 +216,17 @@ const Home = () => {
                     <p className='text-center'>Features</p>
                     <h2 className='text-center'>How It Work</h2>
                     <div className="img">
+                        <div className="bg">
+                        </div>
                         <img src={hero} alt="" />
+                        <div className="play">
+                            <img src={play} alt="" />
+                        </div>
                     </div>
                 </div>
             </section>
             <section className='why-choose-us'>
-                <div className='text-center text'>
+                <div className='text-center text mb-4'>
                     <span>Choose</span>
                     <h4>Why Choose Us</h4>
                 </div>
@@ -207,78 +234,79 @@ const Home = () => {
                     {/* items -1 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>Productive Communication</p>
+                            <img src={Improved} alt="" />
+                            <h3>Improved Customer Service</h3>
+                            <p>We have developed the complete automation
+                                tools to Improve the communication with
+                                your customers along with feedback
+                                and ticketing facility. </p>
                         </div>
                     </div>
                     {/* items -1 end*/}
                     {/* items -2 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>Advanced Tools </p>
+                            <img src={setup} alt="" />
+                            <h3>Easy Setup Software </h3>
+                            <p>Our Vistabooks Software provides you with the
+                                easy setup CRM, ERP & HRM Software which is
+                                completely automated with end-to-end
+                                requirement for any enterprise organization.</p>
                         </div>
                     </div>
                     {/* items -2 end*/}
                     {/* items -3 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>Improved Workflow</p>
+                            <img src={Increased} alt="" />
+                            <h3>Increased Automation </h3>
+                            <p>Reduce your manual work with improved
+                                automation facilities available in the CRM,
+                                ERP, HRM of Vistabooks. Boost your
+                                Organization’s productivity with Vistabooks.</p>
                         </div>
                     </div>
                     {/* items -3 end*/}
                     {/* items -4 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>End to End Automation Software</p>
+                            <img src={Solutions} alt="" />
+                            <h3>Complete Enterprise Solution</h3>
+                            <p>Vistabooks ERP Solution is the complete
+                                Enterprise Software for managing your
+                                accounting, project management,
+                                inventories, procurement, risk management,
+                                supply chain operations and more.</p>
                         </div>
                     </div>
                     {/* items -4 end*/}
                     {/* items -5 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
+                            <p className='lead'>Managed HR Operations</p>
                             <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <h3>Advanced HRMS </h3>
+                            <p>Automate your complete Human Resource
+                                Operations and Employee Engagement with
+                                a one platform which is Employee Help Desk,
+                                Management, Leave Attendance System Etc.</p>
                         </div>
                     </div>
                     {/* items -5 end*/}
                     {/* items -6 start*/}
                     <div className="items">
                         <div>
-                            <p className='lead'>Feature 01</p>
-                            <img src={crm} alt="" />
-                            <h3>CRM Software</h3>
-                            <p>Track and Manage your Customer’s
-                                data with our CRM Software. Manage
-                                your Customer Queries and Follow
-                                ups with CRM Software. </p>
+                            <p className='lead'>Timesheet to Salaries</p>
+                            <img src={Payroll} alt="" />
+                            <h3>Payroll Management </h3>
+                            <p>Our HRMS of Vistabooks also provides you
+                                with the advanced payroll management
+                                software with the facility to disburse
+                                salariesand to file the tax compliance.</p>
                         </div>
                     </div>
                     {/* items -6 end*/}
@@ -334,7 +362,7 @@ const Home = () => {
                 <div className='team-pro'>
                     <div className="team-pro-info">
                         <button>HRM</button>
-                        <h1><sub>$</sub>Rs.499.00</h1>
+                        <h1><sub></sub>Rs.499.00</h1>
                         <ul>
                             <li>
                                 <img src={whtecheckbox} alt="" />
@@ -382,7 +410,7 @@ const Home = () => {
                 </div>
                 <div className='enterprice'>
                     <button>School ERP </button>
-                    <h1><sub>$</sub>Rs.625.00</h1>
+                    <h1><sub></sub>Rs.625.00</h1>
                     <ul>
                         <li>
                             <img src={checkbox} alt="" />
@@ -430,9 +458,12 @@ const Home = () => {
             </section>
             <section className='asked-questions '>
                 <div className="container">
-                    <div className='text-center'>
-                        <p>FAQ</p>
-                        <h2>Frequently Asked Questions </h2>
+                    <>
+                        <div className='tittle text-center'>
+                            <p>FAQ</p>
+                            <h2>Frequently Asked Questions </h2>
+                        </div>
+
                         <div className="row">
                             {/* item1 */}
                             <div className="col-md-6">
@@ -458,10 +489,200 @@ const Home = () => {
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
                                     </div>
                                 </div>
-                                {/*1 item end */}
                             </div>
+                            {/*1 item end */}
+
+                            {/* item2 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick2(!homeclick2)}
+                                            >
+                                                {
+                                                    homeclick2 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick2 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*2 item end */}
+
+                            {/* item3 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick3(!homeclick3)}
+                                            >
+                                                {
+                                                    homeclick1 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick3 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*3 item end */}
+
+                            {/* item4 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick4(!homeclick4)}
+                                            >
+                                                {
+                                                    homeclick4 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick4 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*4 item end */}
+
+                            {/* item5 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick5(!homeclick5)}
+                                            >
+                                                {
+                                                    homeclick5 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick5 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*5 item end */}
+
+                            {/* item6 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick6(!homeclick6)}
+                                            >
+                                                {
+                                                    homeclick6 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick6 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*6 item end */}
+
+                            {/* item7 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick7(!homeclick7)}
+                                            >
+                                                {
+                                                    homeclick7 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick7 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*7 item end */}
+
+                            {/* item8 */}
+                            <div className="col-md-6">
+                                <div className="item">
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                        <div>
+                                            <h4>What is Bikat</h4>
+                                        </div>
+                                        <div>
+                                            <button
+                                                onClick={() => sethomeclick8(!homeclick8)}
+                                            >
+                                                {
+                                                    homeclick8 ?
+                                                        <p>-</p>
+                                                        :
+                                                        <p>+</p>
+                                                }
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className={`content ${homeclick8 ? ' ' : 'about-hide'}`}>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus qui at optio deleniti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*8 item end */}
+
                         </div>
-                    </div>
+                    </>
                 </div>
             </section>
             <section>
@@ -470,18 +691,27 @@ const Home = () => {
                         <span>Features</span>
                         <h2>Contact Us</h2>
                     </div>
-                    <div className="form">
-                        <form action="">
-                            <input type="text" name="" placeholder='Name' id="" />
-                            <input type="email" name="" placeholder='E-mail' id="" />
-                            <input type="text" name="" placeholder='Subject' id="" />
-                            <textarea name="" placeholder='Product Discription'></textarea>
-                            <input type="submit" value="Send Message" />
-                        </form>
-                    </div>
+                    <section className='section-from'>
+                        <div className="form">
+                            <div className='from-content'>
+                                <form style={{ width: '100%' }} action="">
+                                    <input type="text" name="" placeholder='Name' id="" />
+                                    <input type="email" name="" placeholder='E-mail' id="" />
+                                    <input type="text" name="" placeholder='Subject' id="" />
+                                    <textarea name="" placeholder='Product Discription'></textarea>
+                                    <input type="submit" value="Send Message" />
+                                </form>
+                            </div>
+                        </div>
+                        <div className="from-bg">
+                            <div></div>
+                        </div>
+                    </section>
                 </div>
             </section>
-        </>
+            <div className="top-canva-fast"></div>
+            <div className="top-canva-two"></div>
+        </div>
     );
 };
 
