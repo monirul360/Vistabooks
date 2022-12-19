@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import vista from './../../../Image/Vista.png';
+import facebook from './../../../Image/icons/Social/facebook.svg';
+import instagram from './../../../Image/icons/Social/instagram.svg';
+import linkedin from './../../../Image/icons/Social/linkedin.svg';
+import twitter from './../../../Image/icons/Social/twitter.svg';
 const Footer = () => {
     return (
         <>
@@ -15,44 +19,62 @@ const Footer = () => {
                             <p>Farmers and agents can list agricultural</p>
                             <p>items on the Mobile Mandi Technology</p>
                             <p>platform, along with prices and contact</p>
-                            <p>information. This listing will make it</p></div>
+                            <p>information. This listing will make it</p>
+                            <div className="link">
+                                <ul>
+                                    <li><a className='active' href="jfjjf"><img src={facebook} alt="" /></a></li>
+                                    <li> <a href="jfjjf"><img src={instagram} alt="" /></a></li>
+                                    <li>                                    <a href="jfjjf"><img src={linkedin} alt="" /></a>
+                                    </li>
+                                    <li>                                    <a href="jfjjf"><img src={twitter} alt="" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div></div>
                 </div>
                 <div>
-                    <h4>Product</h4>
+                    <h4>Our Products </h4>
                     <ul>
-                        <li><Link to='/'>Overview</Link></li>
-                        <li><Link to='/'>Overview</Link></li>
+                        <li><Link to='/'>CRM Software</Link></li>
+                        <li><Link to='/'>HRM Software</Link></li>
+                        <li><Link to='/'>ERM Software</Link></li>
                         <li><Link to='/'>Pricing</Link></li>
-                        <li><Link to='/'>Pricing</Link></li>
-                        <li><Link to='/'>Customer stories</Link></li>
-                        <li><Link to='/'>Customer stories</Link></li>
+                        <li><Link to='/'>School ERP Software
+                        </Link></li>
+                        <li><Link to='/'>Customer stories
+                        </Link></li>
                     </ul>
                 </div>
                 <div>
-                    <h4>Resources</h4>
+                    <h4>Our Blogs</h4>
                     <ul>
-                        <li><Link to='/'>Blog</Link></li>
-                        <li><Link to='/'>Blog</Link></li>
-                        <li><Link to='/'>Guides & tutorials</Link></li>
-                        <li><Link to='/'>Guides & tutorials</Link></li>
-                        <li><Link to='/'>Help center</Link></li>
-                        <li><Link to='/'>Help center</Link></li>
+                        <li className='py-3'>
+                            <p>Benefits of ERP Solutions for</p>
+                            <p>Small & Medium Enterprises.</p>
+                        </li>
+                        <li>
+                            <p>Why should you use CRM in</p>
+                            <p>your Service Company?</p>
+                        </li>
+                        <li className='py-3'>
+                            <p>Importance of HRM Software</p>
+                        </li>
+                        <br /><br />
                     </ul>
                 </div>
                 <div>
-                    <h4>Company</h4>
+                    <h4>Vistabooks </h4>
                     <ul>
                         <li><Link to='/'>About us</Link></li>
-                        <li><Link to='/'>About us</Link></li>
-                        <li><Link to='/'>Careers</Link></li>
-                        <li><Link to='/'>Careers</Link></li>
-                        <li><Link to='/'>Media kit</Link></li>
-                        <li><Link to='/'>Media kit</Link></li>
+                        <li><Link to='/'>Contact Us</Link></li>
+                        <br /><br /><br /><br /><br /><br />
                     </ul>
                 </div>
             </footer>
+            <div className="copy-right">
+                <p className='text-center'>©Vistabook 2022. All Rights Reserved</p>
+            </div>
         </>
     );
 };

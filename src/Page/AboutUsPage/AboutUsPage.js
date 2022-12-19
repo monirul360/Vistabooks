@@ -9,6 +9,7 @@ import best_features from './../../Image/images/best-features.png';
 import about_how from './../../Image/images/about_how.png';
 import vistabooks_erp from './../../Image/images/vistabooks_erp.png';
 import { useState } from 'react';
+import Head2 from '../Head2/Head2';
 const AboutUsPage = () => {
     const [aboutclick1, setaboutclick1] = useState(false);
     const [aboutclick2, setaboutclick2] = useState(false);
@@ -20,7 +21,8 @@ const AboutUsPage = () => {
     const [aboutclick8, setaboutclick8] = useState(false);
     const [aboutclick9, setaboutclick9] = useState(false);
     return (
-        <>
+        <div>
+            <Head2 tittle="About"></Head2>
             <section className='about-us'>
                 <div className="about-fast-content my-5">
                     <div className="container">
@@ -646,8 +648,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 };
-
 export default AboutUsPage;

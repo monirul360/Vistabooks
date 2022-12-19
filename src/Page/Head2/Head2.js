@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './../../Image/Vista.png';
-const Head = () => {
+const Head2 = (props) => {
     const [navMiniButton, setnavMiniButton] = useState(false);
     const [singleNavOne, setsingleNavOne] = useState(false);
     const [singleNavTwo, setsingleNavTwo] = useState(false);
@@ -11,7 +11,7 @@ const Head = () => {
     const [doubleNavTwo, setdoubleNavTwo] = useState(false);
     return (
         <>
-            <div>
+            <div className='head-all-page'>
                 {/* Header Section  */}
                 <header class="header">
                     <div class="container">
@@ -114,10 +114,13 @@ const Head = () => {
                         </div>
                     </div>
                 </header>
-
+                <div className="head-tittle text-center">
+                    <p>Home-{props?.heading}</p>
+                    <h2>{props?.tittle}</h2>
+                </div>
             </div>
         </>
     );
 };
 
-export default Head;
+export default Head2;
