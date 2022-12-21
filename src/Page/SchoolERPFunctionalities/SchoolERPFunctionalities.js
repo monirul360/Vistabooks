@@ -1,8 +1,10 @@
 import React from 'react';
+import Head2 from './../Head2/Head2';
 
 const SchoolERPFunctionalities = () => {
     return (
         <>
+            <Head2 tittle="School ERP Functionalities" heading="Functionalities"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>Vistabooks School ERP or Educational ERP is the most effective ERP system which can completely automate the whole manual process of the Schools along with advanced reporting systems. Vistabooks School ERP will help to manage the internal and external tasks, fees payment, library systems, student admission/enrolments, students leave management, extracurricular activities, exams, marks, and performance of each student .</p>

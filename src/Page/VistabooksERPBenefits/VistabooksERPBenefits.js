@@ -1,9 +1,11 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 import icon from './../../Image/icons/Vector.png';
 import img from './../../Image/images/1.png'
 const VistabooksERPBenefits = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks ERP Benefits" heading="Benefits"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>ERP Solutions of Vistabooks has a centralized database which a collect, store, retrieve and edit the data across different teams of the organization. Access the data in real-time and improve the efficiency of the team with the downloadable reports for business improvements.

@@ -1,9 +1,11 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 import icon from './../../Image/icons/Vector.png';
 import img from './../../Image/images/1.png'
 const HRM = () => {
     return (
         <>
+            <Head2 tittle="Human Resource Management (HRM) Software" heading="Software"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>Human Resources Management (HRM) Software by Vistabooks has several benefits which is integrated with the HR Management and Payroll Software. Our Vistabooks HR Management Software will be providing automatic employee synchronization, employee/staff directory updates, employee attendance, leave management and more. Our Vistabooks HRM Software integrated with payroll management will benefit in the payroll calculation, statutory calculation, calculating the compensation and benefits, accounting, expenses, tax filing and more. Vistabook HRM Software has multiple benefits of storing and retrieving the information from Application tracking, Employee Onboarding, Performance Management, Training and Development, Timesheet Management, Leave Management, Payroll and more.

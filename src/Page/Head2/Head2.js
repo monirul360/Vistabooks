@@ -48,8 +48,8 @@ const Head2 = (props) => {
                                                     ></Link>
                                                 <ul class={`sub-sub-menu double-sub-one sub-nav-hide ${singleNavTwo ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                                     <li><Link to="/ProprietorshipFirm">Functionalities</Link></li>
-                                                    <li><Link to="/PartnershipCompany">Benefits</Link></li>
-                                                    <li><Link to="/OnePersonCompanyRegistration">Use Cases</Link></li>
+                                                    <li><Link to="/BenefitsofVistabooksCRMSoftware">Benefits</Link></li>
+                                                    <li><Link to="/UseCasesofVistabooksCRMSoftware">Use Cases</Link></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-nav double-nav-two">
@@ -60,9 +60,9 @@ const Head2 = (props) => {
                                                 ></i
                                                     ></Link>
                                                 <ul class={`sub-sub-menu double-sub-two sub-nav-hide ${singleSubOne ? 'sub-nav-show' : 'sub-nav-hide'}`}>
-                                                    <li><Link to="/IndianSubsidiary">Functionalities</Link></li>
-                                                    <li><Link to="/nidhicompany">Benefits</Link></li>
-                                                    <li><Link to="/Producercompany">Use Cases</Link></li>
+                                                    <li><Link to="/HRM">Functionalities</Link></li>
+                                                    <li><Link to="/VistabooksHRMSoftwareBenefits">Benefits</Link></li>
+                                                    <li><Link to="/VistabooksHRMUseCases">Use Cases</Link></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-nav double-nav-three">
@@ -86,9 +86,9 @@ const Head2 = (props) => {
                                                 ></i
                                                     ></Link>
                                                 <ul class={`sub-sub-menu double-sub-four sub-nav-hide ${doubleNavOne ? 'sub-nav-show' : 'sub-nav-hide'}`}>
-                                                    <li><Link to="/DigitalSignature">Functionalities</Link></li>
-                                                    <li><Link to="/FssaiRegistration"> Benefits</Link></li>
-                                                    <li><Link to="/ImportExportCode">Use Cases</Link></li>
+                                                    <li><Link to="/VistabooksERPFunctionalities">Functionalities</Link></li>
+                                                    <li><Link to="/VistabooksERPBenefits"> Benefits</Link></li>
+                                                    <li><Link to="/VistabooksERPUseCases">Use Cases</Link></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-nav double-nav-five">
@@ -99,14 +99,14 @@ const Head2 = (props) => {
                                                 ></i
                                                     ></Link>
                                                 <ul class={`sub-sub-menu double-sub-five sub-nav-hide ${doubleNavTwo ? 'sub-nav-show' : 'sub-nav-hide'}`}>
-                                                    <li><Link to="/BusinessTaxFiling">Functionalities</Link></li>
-                                                    <li><Link to="/IncomeTaxFiling">Benefits</Link></li>
-                                                    <li><Link to="/IncomeTaxFiling">Use Cases</Link></li>
+                                                    <li><Link to="/SchoolERPFunctionalities">Functionalities</Link></li>
+                                                    <li><Link to="/VistabooksSchoolERPBenefits">Benefits</Link></li>
+                                                    <li><Link to="/SchoolERPUseCases">Use Cases</Link></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/BlogsGrid">Blog</Link></li>
+                                    <li><Link to="/OurNews">Blog</Link></li>
                                     <li><Link to="/ContactUs">Contact Us</Link></li>
                                     <li><Link className='g-Started text-white' to="/login">Get Started</Link></li>
                                 </ul>

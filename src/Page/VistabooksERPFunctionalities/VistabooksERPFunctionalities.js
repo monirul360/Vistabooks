@@ -1,10 +1,12 @@
 import React from 'react';
 import img from './../../Image/images/1.png';
 import icon from './../../Image/icons/Vector.png';
+import Head2 from '../Head2/Head2';
 
 const VistabooksERPFunctionalities = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks ERP Functionalities" heading="Functionalities"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>Vistabooks ERP (Enterprise Resource Planning) Solutions is a completely integrated 360-degree platform which supports both on-premises and cloud version. Our Vistabooks ERP Solution supports and integrates all the divisions of the organization from the Human Resource Department, Finance Department, Supply Chain, Manufacturing division and more. Vistabooks ERP Solution provides the complete transparency of the business across all the departments. Our ERP Solution provides the End-to-End Planning to execution of the complete business process. Vistabooks ERP for any enterprise is organized across the single database which can store the complete information and can be accessed by each, and every department of the organization and the top-level hierarchy member can completely download the report of the whole ERP Solution. Vistabooks ERP Solution is designed in such a way that each data is accessed and stored in the right data in the database. These data are completely defined and organized which can be accessed by the ERP admin or ERP Viewer of the department or the organization. Using the Vistabooks ERP, The data in the organization is completely stored in the database of the Vistabooks ERP and the data is fetched when required.

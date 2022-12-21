@@ -1,8 +1,10 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 
 const VistabooksSchoolERPBenefits = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks School ERP Benefits" heading="Benefits"></Head2>
             <div className="container">
                 <div className="common-page">
                     <h4 className='Title'>Vistabooks School ERP Benefits</h4>

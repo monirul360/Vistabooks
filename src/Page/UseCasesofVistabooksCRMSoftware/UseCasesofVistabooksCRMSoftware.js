@@ -1,8 +1,10 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 
 const UseCasesofVistabooksCRMSoftware = () => {
     return (
         <>
+            <Head2 tittle="Use Cases of Vistabooks CRM Software" heading="Use Cases"></Head2>
             <div className="container">
                 <div className='common-page'>
                     <p>Using the Best CRM Software’s like Vistabooks CRM will help your company to improve the productivity of your sales team and carry out the better customer experience through the CRM Software. The Complete customer experience from onboarding the new client to the sales and maintaining the customer life long will be the vital benefit of using the CRM Software.</p>

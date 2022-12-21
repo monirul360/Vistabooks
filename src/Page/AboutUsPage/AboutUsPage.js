@@ -22,7 +22,7 @@ const AboutUsPage = () => {
     const [aboutclick9, setaboutclick9] = useState(false);
     return (
         <div>
-            <Head2 tittle="About"></Head2>
+            <Head2 tittle="About Us" heading="About Us"></Head2>
             <section className='about-us'>
                 <div className="about-fast-content my-5">
                     <div className="container">
@@ -648,7 +648,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     );
 };
 export default AboutUsPage;

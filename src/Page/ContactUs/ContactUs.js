@@ -1,10 +1,12 @@
 import React from 'react';
 import call from './../../Image/icons/call.png';
 import location from './../../Image/icons/location.png';
-import email from './../../Image/icons/email.png';
+import email from './../../Image/icons/home/mail.svg';
+import Head2 from './../Head2/Head2';
 const ContactUs = () => {
     return (
         <>
+            <Head2 heading="Contact Us" tittle="Contact Us"></Head2>
             <section className='ContactUs py-5'>
                 <div className="container">
                     <div className="row justify-content-center align-items-center">

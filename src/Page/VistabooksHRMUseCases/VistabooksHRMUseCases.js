@@ -1,8 +1,10 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 
 const VistabooksHRMUseCases = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks HRM Use Cases" heading="Use Cases"></Head2>
             <div className="container">
                 <div className="common-page">
                     <h4 className='Title'>Vistabooks HRM Use Cases</h4>

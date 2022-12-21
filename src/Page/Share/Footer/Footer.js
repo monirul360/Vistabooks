@@ -36,11 +36,11 @@ const Footer = () => {
                 <div>
                     <h4>Our Products </h4>
                     <ul>
-                        <li><Link to='/'>CRM Software</Link></li>
-                        <li><Link to='/'>HRM Software</Link></li>
-                        <li><Link to='/'>ERM Software</Link></li>
-                        <li><Link to='/'>Pricing</Link></li>
-                        <li><Link to='/'>School ERP Software
+                        <li><Link to='/BenefitsofVistabooksCRMSoftware'>CRM Software</Link></li>
+                        <li><Link to='/VistabooksHRMSoftwareBenefits'>HRM Software</Link></li>
+                        <li><Link to='/SchoolERPFunctionalities'>ERM Software</Link></li>
+                        <li><Link to='/SubscriptionPage'>Pricing</Link></li>
+                        <li><Link to='/SchoolERPFunctionalities'>School ERP Software
                         </Link></li>
                         <li><Link to='/'>Customer stories
                         </Link></li>
@@ -66,14 +66,14 @@ const Footer = () => {
                 <div>
                     <h4>Vistabooks </h4>
                     <ul>
-                        <li><Link to='/'>About us</Link></li>
-                        <li><Link to='/'>Contact Us</Link></li>
+                        <li><Link to='/AboutUsPage'>About us</Link></li>
+                        <li><Link to='/ContactUs'>Contact Us</Link></li>
                         <br /><br /><br /><br /><br /><br />
                     </ul>
                 </div>
             </footer>
             <div className="copy-right">
-                <p className='text-center'>©Vistabook 2022. All Rights Reserved</p>
+                <p className='text-center'><span>©Vistabook</span> 2022. All Rights Reserved</p>
             </div>
         </>
     );

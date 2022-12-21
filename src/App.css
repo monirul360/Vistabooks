@@ -1788,6 +1788,10 @@ footer ul li a {
   color: #212122;
 }
 
+.copy-right span {
+  color: #3971FF;
+}
+
 /* responsive */
 
 @media (min-width:2014px) {
@@ -1900,6 +1904,7 @@ footer ul li a {
     padding: 20px;
     background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
     border-radius: 5px;
+
   }
 
   .subscription-page>div {
@@ -1924,6 +1929,13 @@ footer ul li a {
     display: block;
   }
 
+  .how-it-work .img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 10;
+    margin: 120px auto;
+  }
 }
 
 
@@ -2018,7 +2030,6 @@ footer ul li a {
 }
 
 /* ====================== */
-/* 992px */
 @media only screen and (min-width: 1150px) {
 
   /*Header*/

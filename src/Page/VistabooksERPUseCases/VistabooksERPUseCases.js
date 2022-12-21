@@ -1,8 +1,10 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 
 const VistabooksERPUseCases = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks ERP Use Cases" heading="Use Cases"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>Vistabooks ERP Solution provides you with a unified solution which can track the data between the different teams such as Finance, Inventory Management, Supply Chain, Human Resource, and other Business Processes. Each feature of the ERP System will benefit your Organization to perform the complex task which will improve the efficiency of the systems and enhance the productivity of your organization by reducing the manual tasks.

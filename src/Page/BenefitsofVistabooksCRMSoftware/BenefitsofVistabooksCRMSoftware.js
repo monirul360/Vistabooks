@@ -1,15 +1,17 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 import icon from './../../Image/icons/Vector.png';
 import img from './../../Image/images/1.png'
 const BenefitsofVistabooksCRMSoftware = () => {
     return (
         <>
+            <Head2 tittle="Benefits of Vistabooks CRM Software" heading="Benefits"></Head2>
             <div className="container">
                 <section className='common-page'>
                     <p>Our Vistabooks CRM helps the Sales team to target the different group of audiences and convert the lead to sale by proactively working with different leads and maintain a good customer relationship with the calendar management and task management Vistabooks CRM Software.
                         Your Sales Team can set alerts and calendar reminders based on the customer feedback.Visual dashboard to showcase the Leads to the converted sales. Sales and marketing automation based Vistabooks CRM can help your organization annual sales team to achieve the target with proper customer follow ups.
                     </p>
-                    <div className="row  py-5">
+                    <div className="row d-flex justify-content-center align-items-center  py-5">
                         <div className="col-12 col-md-8">
                             <ul>
                                 <li>

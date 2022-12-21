@@ -1,9 +1,11 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 import icon from './../../Image/icons/Vector.png';
 
 const SchoolERPUseCases = () => {
     return (
         <>
+            <Head2 tittle="School ERP Use Cases" heading="Use Cases"></Head2>
             <div className="container">
                 <div className="common-page">
                     <h4 className='Title'>School ERP Use Cases</h4>

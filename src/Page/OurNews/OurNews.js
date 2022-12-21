@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img from './../../Image/images/2.png';
+import Head2 from './../Head2/Head2';
 const OurNews = () => {
     const news = [1, 2, 3];
     return (
         <div>
+            <Head2 tittle="Our News" heading="News"></Head2>
             <div className="container">
                 <div className="row py-5">
                     {

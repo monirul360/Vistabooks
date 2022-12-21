@@ -1,9 +1,11 @@
 import React from 'react';
+import Head2 from '../Head2/Head2';
 import icon from './../../Image/icons/Vector.png';
 import img from './../../Image/images/1.png'
 const VistabooksHRMSoftwareBenefits = () => {
     return (
         <>
+            <Head2 tittle="Vistabooks HRM Software Benefits" heading="Benefits"></Head2>
             <div className="container">
                 <div className="common-page">
                     <p>Automate the complete lifecycle of any staff or employee from the employee onboarding to the exit using the Vistabooks HRMS Software. Vistabooks is a modern HR automation software having several benefits from workflow management, performance appraisal, leave management and more. Automate the Training requirements of the team using the HRMS Software of Vistabooks. Maintain the Database of the Trainees (Employees) along with the Trainers with the Employees on bench who requires the training before moving to the next team or project to be executed. Schedule the Training program along with the Training Calendar management which can automatically send or trigger mails or SMS to the employees in the right time using Vistabooks.
