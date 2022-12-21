@@ -18,6 +18,8 @@ import Increased from './../../Image/icons/home/Increased.svg';
 import Solutions from './../../Image/icons/home/Solutions.svg';
 import Advanced_HRMS from './../../Image/icons/home/HRM.svg';
 import Payroll from './../../Image/icons/home/Money.svg';
+import userimg from './../../Image/images/user.jpg';
+import Slider from './Slider';
 const Home = () => {
     const [homeclick1, sethomeclick1] = useState(false);
     const [homeclick2, sethomeclick2] = useState(false);
@@ -456,6 +458,61 @@ const Home = () => {
                     <Link id='subscribe' to='/'>Order Now</Link>
                 </div>
             </section>
+
+            <section className='home-testimonials-section py-5'>
+                <div className="home-testimonials">
+                    <div className='text-center'>
+                        <span>Review</span>
+                        <h1>Client Testimonials</h1>
+                        <p>We are a Start-up company using Vistabooks HRM. We can track the time sheet of the Employees along with the payroll features using the Vistabooks HRM Software. </p>
+                        <h3>Sheela Ranganathan</h3>
+                        <p className='mt-3'>Product User</p>
+                        <div>
+                            <Slider></Slider>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='home-testimonials-two mb-5'>
+                <div className="items">
+                    <div className="text mb-5">
+                        <span>Review</span>
+                        <h2>Client Testimonials</h2>
+                    </div>
+                    <div className='d-flex gap-4'>
+                        {/* start */}
+                        <div className="user">
+                            <img className='img-fluid' src={userimg} alt="" />
+                            <h2>Johan Smith</h2>
+                            <p>Founder</p>
+                        </div>
+                        {/* end */}
+                        {/* start */}
+                        <div className="user">
+                            <img className='img-fluid' src={userimg} alt="" />
+                            <h2>Johan Smith</h2>
+                            <p>Founder</p>
+                        </div>
+                        {/* end */}
+                        {/* start */}
+                        <div className="user">
+                            <img className='img-fluid' src={userimg} alt="" />
+                            <h2>Johan Smith</h2>
+                            <p>Founder</p>
+                        </div>
+                        {/* end */}
+                        {/* start */}
+                        <div className="user">
+                            <img className='img-fluid' src={userimg} alt="" />
+                            <h2>Johan Smith</h2>
+                            <p>Founder</p>
+                        </div>
+                        {/* end */}
+                    </div>
+                </div>
+            </section>
+
             <section className='asked-questions '>
                 <div className="container">
                     <>
