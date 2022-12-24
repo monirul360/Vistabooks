@@ -511,9 +511,11 @@ const Home = () => {
                         {/* end */}
                     </div>
                 </div>
+                <div className="bg"></div>
+                <div className="bg-two"></div>
             </section>
 
-            <section className='asked-questions '>
+            <section className='asked-questions'>
                 <div className="container">
                     <>
                         <div className='tittle text-center'>

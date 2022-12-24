@@ -2057,6 +2057,39 @@ footer ul li a {
   }
 }
 
+@media (min-width:1400px) {
+  .home-testimonials-two {
+    width: 90%;
+    height: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    background: #F5F8FF;
+    border-radius: 0px 150px 150px 0px;
+    padding-right: 94px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .home-testimonials-two .bg-two {
+    position: absolute;
+    width: 800.49px;
+    height: 720.85px;
+    right: 0;
+    top: 0;
+    border: 28px solid #F4F7FD;
+    border-radius: 0px 0px 500px 100px;
+    transform: rotate(-144.99deg);
+    z-index: -1;
+  }
+
+  .asked-questions {
+    margin-top: 170px;
+    margin-bottom: 70px;
+  }
+}
+
 @media (max-width:1400px) {
   .home-testimonials-two {
     width: 100%;
