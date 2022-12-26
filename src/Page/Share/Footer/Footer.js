@@ -16,10 +16,11 @@ const Footer = () => {
                     <div className="d-flex">
                         <div>
                             <img className='img-fluid mb-4' src={vista} alt="" />
-                            <p>Farmers and agents can list agricultural</p>
-                            <p>items on the Mobile Mandi Technology</p>
-                            <p>platform, along with prices and contact</p>
-                            <p>information. This listing will make it</p>
+                              
+                            <p>Vistabooks is a SAAS based renowned</p>
+                            <p>technology solution provider having in-</p>
+                            <p>house products such as CRM, HRM, ERP</p>
+                            <p>and School ERP Software.</p>
                             <div className="link">
                                 <ul>
                                     <li><a className='active' href="jfjjf"><img src={facebook} alt="" /></a></li>
