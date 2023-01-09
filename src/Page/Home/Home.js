@@ -16,7 +16,7 @@ import Improved from "./../../Image/icons/home/Improved.svg";
 import setup from "./../../Image/icons/home/setup.svg";
 import Increased from "./../../Image/icons/home/Increased.svg";
 import Solutions from "./../../Image/icons/home/Solutions.svg";
-import Advanced_HRMS from "./../../Image/icons/home/HRM.svg";
+// import Advanced_HRMS from "./../../Image/icons/home/HRM.svg";
 import Payroll from "./../../Image/icons/home/Money.svg";
 import userimg from "./../../Image/images/user.jpg";
 import Slider from "./Slider";
