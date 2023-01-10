@@ -29,6 +29,7 @@ import Testimonialsone from "./Page/Testimonials-1/Testimonialsone";
 import Testimonialstwo from "./Page/Testimonials-1/Testimonialstwo";
 import Testimonialsthree from "./Page/Testimonials-1/Testimonialsthree";
 import Testimonialsfore from "./Page/Testimonials-1/Testimonialsfore";
+import Error from "./Page/Error/Error";
 function App() {
   return (
     <>
@@ -130,6 +131,7 @@ function App() {
           path="/functionalitiesCRM"
           element={<FunctionalitiesCRM></FunctionalitiesCRM>}
         ></Route>
+        <Route path="*" element={<Error></Error>}></Route>
       </Routes>
       <Footer></Footer>
     </>
