@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import hero from "./../../Image/images/hero.png";
 import heroicon from "./../../Image/icons/3.png";
 import crm from "./../../Image/icons/CRM icon.svg";
@@ -535,13 +535,7 @@ const Home = () => {
           <div className="text-center">
             <span>Review</span>
             <h1>Client Testimonials</h1>
-            <p>
-              We are a Start-up company using Vistabooks HRM. We can track the
-              time sheet of the Employees along with the payroll features using
-              the Vistabooks HRM Software.{" "}
-            </p>
-            <h3>Sheela Ranganathan</h3>
-            <p className="mt-3">Product User</p>
+            <Outlet></Outlet>
             <div>
               <Slider></Slider>
             </div>

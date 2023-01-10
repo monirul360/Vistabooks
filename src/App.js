@@ -25,11 +25,29 @@ import Home from "./Page/Home/Home";
 import AboutUsPage from "./Page/AboutUsPage/AboutUsPage";
 import Head from "./Page/Head/Head";
 import FunctionalitiesCRM from "./Page/FunctionalitiesCRM/FunctionalitiesCRM";
+import Testimonialsone from "./Page/Testimonials-1/Testimonialsone";
+import Testimonialstwo from "./Page/Testimonials-1/Testimonialstwo";
+import Testimonialsthree from "./Page/Testimonials-1/Testimonialsthree";
+import Testimonialsfore from "./Page/Testimonials-1/Testimonialsfore";
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" element={<Home></Home>}>
+          <Route index element={<Testimonialsone></Testimonialsone>}></Route>
+          <Route
+            path="two"
+            element={<Testimonialstwo></Testimonialstwo>}
+          ></Route>
+          <Route
+            path="three"
+            element={<Testimonialsthree></Testimonialsthree>}
+          ></Route>
+          <Route
+            path="fore"
+            element={<Testimonialsfore></Testimonialsfore>}
+          ></Route>
+        </Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route
           path="/registration"
