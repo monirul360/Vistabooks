@@ -1265,7 +1265,16 @@ about-us
   background-clip: text;
   text-fill-color: transparent;
 }
-
+.FunctionalitiesCRM-content table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.FunctionalitiesCRM-content td,
+th {
+border: 1px solid #000000;
+  text-align: left;
+  padding:16px;
+}
 /* =======================
 common-page
 ========================== */

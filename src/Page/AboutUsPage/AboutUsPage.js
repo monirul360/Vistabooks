@@ -225,7 +225,7 @@ const AboutUsPage = () => {
                 <div>
                   <h2>
                     VISTABOOKS develops integrated human resources and payroll
-                    software which is,
+                    software which is
                   </h2>
                   <div className="d-flex py-2">
                     <div>
