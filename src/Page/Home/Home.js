@@ -7,7 +7,6 @@ import platform from "./../../Image/images/Features.png";
 import checkbox from "./../../Image/icons/checkbox-1.svg";
 import bluecheckbox from "./../../Image/icons/bluecheckbox.svg";
 import whtecheckbox from "./../../Image/icons/checkbox-2.svg";
-import play from "./../../Image/icons/play.png";
 import Head from "../Head/Head";
 import group from "./../../Image/icons/home/Group1000002501.svg";
 import ERP from "./../../Image/icons/home/ERP.svg";
@@ -267,16 +266,17 @@ const Home = () => {
         <div className="container">
           <p className="text-center">Features</p>
           <h2 className="text-center">How It Work</h2>
-          <div className="img">
-            <div className="bg"></div>
-            <img src={hero} alt="" />
-            <div className="play">
-              <img src={play} alt="" />
-            </div>
+          <div class="ratio ratio-16x9 my-5">
+            <iframe
+              src="https://www.youtube.com/embed/MTyL3ztESWY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
-      <section className="why-choose-us">
+      <section className="why-choose-us mt-3">
         <div className="text-center text mb-4">
           <span>Choose</span>
           <h4>Why Choose Us</h4>
@@ -372,7 +372,7 @@ const Home = () => {
         {/* Single-User start */}
         <div className="package">
           <div className="text-center py-4">
-            <p>Price</p>
+            <p style={{ color: "#3971FF", marginBottom: "16px" }}>Price</p>
             <h1>Pricing Plans</h1>
           </div>
         </div>

@@ -290,7 +290,8 @@ feature-section
 }
 
 .how-it-work .img {
-  width: 847px;
+  /* width: 847px; */
+  width: 100%;
   height: 478px;
   position: relative;
   z-index: 10;
@@ -1853,7 +1854,6 @@ payment-three
   width: 470px;
   padding: 19px 0;
   display: block;
-
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -1881,7 +1881,7 @@ footer {
   position: relative;
   border-radius: 5px;
   color: #FFFFFF;
-  z-index: -10;
+  z-index: 10;
   overflow: hidden;
 }
 
@@ -1900,7 +1900,7 @@ footer {
 }
 
 footer .footer-vista {
-  z-index: 1;
+  z-index:-1;
   padding: 144px 50px;
   margin-right: 60px;
 }
@@ -1937,7 +1937,7 @@ footer .footer-vista .link ul li .active {
 }
 
 footer .footer-vista .link ul li a:hover {
-  background-color: orange;
+  background: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
 }
 
 footer>div {
@@ -1959,7 +1959,9 @@ footer ul li a {
   margin-top: 15px;
   color: #FFFFFF;
 }
-
+footer ul li a:hover{
+    color: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+}
 .copy-right {
   height: 104px;
   display: flex;
@@ -1982,7 +1984,16 @@ footer ul li a {
 }
 
 /* responsive */
+@media (min-width:3000px) {
+  
+  .top-canva-fast {
+    display: none;
+  }
 
+  .top-canva-two {
+    display: none;
+  }
+}
 @media (min-width:2014px) {
   .top-canva-fast {
     width: 650px;
@@ -2194,8 +2205,20 @@ footer ul li a {
     height: 250px;
   }
 }
-
-@media (max-width:669px) {
+@media (max-width:950px) {
+  .subscription-page {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+    }
+      .subscription-page>div {
+          width: calc(50% - 40px);
+           margin: 20px 10px;
+      }
+}
+@media (max-width:769px) {
 
   /* login-section */
   .login-section .content {
@@ -2557,7 +2580,7 @@ footer ul li a {
 
 
 /* footer */
-@media (max-width:1070px) {
+@media (max-width:1150px) {
 
   footer {
     display: grid;
@@ -2565,7 +2588,7 @@ footer ul li a {
     background: #0E1A36;
     position: relative;
     color: #FFFFFF;
-    z-index: -10;
+    z-index: 100;
     padding: 60px 0px;
   }
 
