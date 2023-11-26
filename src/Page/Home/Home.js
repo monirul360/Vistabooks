@@ -267,12 +267,7 @@ const Home = () => {
           <p className="text-center">Features</p>
           <h2 className="text-center">How It Work</h2>
           <div class="ratio ratio-16x9 my-5">
-            <iframe
-              src="https://www.youtube.com/embed/MTyL3ztESWY"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            <iframe src="https://www.youtube.com/embed/ahy5o5nT4oI?si=tu9GzGfduZwE9-fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </section>
