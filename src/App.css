@@ -208,7 +208,6 @@ feature-section
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
   text-align: center;
   color: #212121;
   margin: 10px 0;
@@ -634,7 +633,6 @@ home-testimonials
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   margin-bottom: 6px;
 }
 
@@ -709,7 +707,7 @@ home-contact
 z-index: -1;
 } */
 
-*/ .home-contact .form .from-content {
+.home-contact .form .from-content {
   width: 470px;
 }
 
@@ -940,25 +938,26 @@ about-us
   display: none;
 }
 
-.home-Testimonialsone-event p{
+.home-Testimonialsone-event p {
   font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    text-align: center;
-    color: #7388A7;
-    margin-bottom: 33px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #7388A7;
+  margin-bottom: 33px;
 }
-.home-Testimonialsone-event h4{
+
+.home-Testimonialsone-event h4 {
   font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #202020;
-    margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 12px;
 }
 
 /* login-section */
@@ -1093,7 +1092,7 @@ about-us
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .subscription-page>div {
@@ -1161,7 +1160,7 @@ about-us
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 #subscribe {
@@ -1284,18 +1283,21 @@ about-us
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
-.FunctionalitiesCRM-content table{
+
+.FunctionalitiesCRM-content table {
   width: 100%;
   border-collapse: collapse;
 }
+
 .FunctionalitiesCRM-content td,
 th {
-border: 1px solid #000000;
+  border: 1px solid #000000;
   text-align: left;
-  padding:16px;
+  padding: 16px;
 }
+
 /* =======================
 common-page
 ========================== */
@@ -1900,7 +1902,7 @@ footer {
 }
 
 footer .footer-vista {
-  z-index:-1;
+  z-index: -1;
   padding: 144px 50px;
   margin-right: 60px;
 }
@@ -1959,9 +1961,11 @@ footer ul li a {
   margin-top: 15px;
   color: #FFFFFF;
 }
-footer ul li a:hover{
-    color: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
+
+footer ul li a:hover {
+  color: linear-gradient(90deg, #ED6235 0%, #9D228E 96.35%);
 }
+
 .copy-right {
   height: 104px;
   display: flex;
@@ -1982,7 +1986,8 @@ footer ul li a:hover{
 .copy-right span {
   color: #3971FF;
 }
-.error-section{
+
+.error-section {
   width: 320px;
   height: 320px;
   display: flex;
@@ -1992,18 +1997,21 @@ footer ul li a:hover{
   text-align: center;
   margin: 40px auto;
 }
-.error-section h1{
-  font-size:80px;
+
+.error-section h1 {
+  font-size: 80px;
   font-weight: 700;
   color: #A72A82;
   margin-bottom: 10px;
 }
-.error-section p{
-  font-size:17px;
+
+.error-section p {
+  font-size: 17px;
 }
+
 /* responsive */
 @media (min-width:3000px) {
-  
+
   .top-canva-fast {
     display: none;
   }
@@ -2012,6 +2020,7 @@ footer ul li a:hover{
     display: none;
   }
 }
+
 @media (min-width:2014px) {
   .top-canva-fast {
     width: 650px;
@@ -2223,19 +2232,22 @@ footer ul li a:hover{
     height: 250px;
   }
 }
+
 @media (max-width:950px) {
   .subscription-page {
-      width: 100%;
-      margin: auto;
-      display: flex;
-      justify-content: left;
-      flex-wrap: wrap;
-    }
-      .subscription-page>div {
-          width: calc(50% - 40px);
-           margin: 20px 10px;
-      }
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .subscription-page>div {
+    width: calc(50% - 40px);
+    margin: 20px 10px;
+  }
 }
+
 @media (max-width:769px) {
 
   /* login-section */
